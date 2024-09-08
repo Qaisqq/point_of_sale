@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, BOOLEAN, ForeignKey
+from sqlalchemy import Boolean, Column, Integer, String, BOOLEAN, ForeignKey
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 from app.database import Base
 
@@ -15,6 +15,7 @@ class Item(Base):
     alias = Column(String, nullable=True)
     printer = Column(String, nullable=True)
     img_url = Column(String, nullable=True)
+    isAvailable = Column(Boolean, nullable=True)
 
     category_id = Column(Integer, ForeignKey('categories.category_id', ondelete='SET NULL'))
     # Define relationship to the Category model
