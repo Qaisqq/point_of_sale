@@ -8,7 +8,7 @@ class OrderBase(BaseModel):
     status: Optional[str] = None
     items: List[int]
     created_by: Optional[int] = None
-    takeout: Optional[bool] = None
+    # status: Optional[bool] = None
     table_id: Optional[int] = None
     discount: Optional[bool] = None
     amount_before_discount: Optional[int] = None

@@ -1,0 +1,57 @@
+Menu Management:
+
+fr1.0:
+	fr1.0.1: done
+
+fr1.1:
+	fr1.1.1: done
+	fr1.1.2: check
+
+fr1.2:
+	fr1.2.1: done
+	fr1.2.2: check
+	fr1.2.3: done
+	fr1.2.4: done
+
+fr1.3:
+	fr1.3.1: done
+	fr1.3.2: done
+	fr1.3.3: done
+
+fr1.4:
+	fr1.4.1: done
+	fr1.4.2: done
+
+fr1.5:
+	fr1.5.1: check
+	fr1.5.2: check
+
+fr1.6:
+	fr1.6.1: check
+
+fr1.7:  check - after inventory module is created
+
+fr1.8:  check - ???
+
+
+Order Management:
+
+fr2.0:
+	fr2.0.1: done
+	fr2.0.2: done
+	fr2.0.3: check - after payment module is created
+	fr2.0.4: check - ??
+	fr2.0.5: check - after table module is created
+
+
+Billing & Payment Processing:
+
+fr4.0:
+	fr4.0.1:
+	fr4.0.2:
+	fr4.0.3:
+	fr4.0.4:
+
+
+cant add order to an already active table
+active table should ALWAYS have an open order
